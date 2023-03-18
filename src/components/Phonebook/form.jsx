@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-//Подскажите как сделать функцию handlerChange без ифов
 
 export const ContactForm = ({ addContact }) => {
   const [name, setName] = useState('');
